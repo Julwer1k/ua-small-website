@@ -1,0 +1,14 @@
+.footer {
+	padding: 50px 0;
+	background: #343740;
+	
+	img {
+		max-width: 100%;
+		height: auto;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	&__inset {
+	}
+}

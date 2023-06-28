@@ -1,0 +1,49 @@
+.stats {
+	padding-bottom: 140px;
+	padding-top: 140px;
+	
+	&__card {
+		display: flex;
+		column-gap: 17px;
+	}
+	
+	&__card-item {
+		background: #F6F6F8;
+		border: 1px solid #DBDBED;
+		padding: 50px 66px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex: 1 1 280px;
+		
+		&_img {
+			img {
+				height: 80px;
+				width: 81px;
+			}
+		}
+		
+		&_text {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 23px;
+			flex: 1 1 auto;
+			color: #333333;
+		}
+		
+		&_number {
+			font-style: normal;
+			font-weight: 600;
+			font-size: 44px;
+			line-height: 44px;
+			
+			color: #333333;
+		}
+	}
+}
+
+.container {
+}
